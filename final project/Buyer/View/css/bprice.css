@@ -1,0 +1,104 @@
+h2
+{
+   color: white;
+    font-size: 35px;
+}
+
+#sub{
+  background-color: #FAF0E6;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+  opacity: 0.8;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#sub:hover {opacity: 1}
+#cd{
+ background-color:navy;
+ box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 8px 5px 0 rgba(0, 0, 0, 0.24)
+ }
+ #cd a{
+ float:right;
+ display:block;
+ color:white;
+ text-align:center;
+ padding:18px 16px;
+ text-decoration:none;
+ opacity: 0.8;
+ transition: 0.8s;
+ cursor: pointer;
+ }
+ #cd a:hover
+ { opacity: 1;
+ background-color:red;
+ color:white;}
+}
+ #p1{
+ font-size: 12px;
+  color: white;
+ }
+ #h2{
+ text-align:center;
+
+ }
+.container1
+{
+display: block;
+align-content: center;
+
+}
+.container2
+{
+display: block;
+align-content: center;
+
+}
+.divv{
+  position: static;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+  background-color: #FAF0E6;
+  border: none;
+  color: black;
+  padding: 1px 2px;
+  text-align: center;
+  margin: auto;
+
+}
+.card{
+	width: 360px;
+	height: 400px;
+	display: inline-block;
+
+
+	box-sizing: border-box;
+	cursor: zoom-in;
+	margin: 50px 60px;
+	
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+
+.card:hover
+{
+	transform: translateY(-28px);
+}
+.content {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	border-radius: 5px;
+  padding: 0.5px 50px;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.8);
+}
+img{
+	border-radius: 10px;
+	width:115%; 
+	height: 160%;
+}

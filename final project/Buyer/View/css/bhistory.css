@@ -1,0 +1,60 @@
+#button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+#cd{
+ background-color:navy;
+ box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 8px 5px 0 rgba(0, 0, 0, 0.24)
+ }
+ #cd a{
+ float:right;
+ display:block;
+ color:white;
+ text-align:center;
+ padding:18px 16px;
+ text-decoration:none;
+ opacity: 0.8;
+ transition: 0.8s;
+ cursor: pointer;
+ }
+ #cd a:hover
+ { opacity: 1;
+ background-color:red;
+ color:white;}
+}
+#customers {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid black;
+  padding: 88px;
+}
+
+#customers tr {background-color: white;}
+
+#customers tr:hover {background-color: skyblue; color: white;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: lightseagreen;
+  color: white;
+}
